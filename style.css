@@ -22,3 +22,29 @@ p{
 .nav-item{
     padding-left: 20px;
 }
+.banner {
+    display: grid;
+    align-items: center;
+    min-height: 100vh;
+    background: url(images/imgfv.avif) no-repeat center;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+  }
+
+.name{
+    font-size: 60px;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(77, 166, 151);
+    text-decoration: none;
+    border-radius: 12px;
+}
+.btn:hover{
+    background-color: rgb(28, 98, 55);
+}
+
+
