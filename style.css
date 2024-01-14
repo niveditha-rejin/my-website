@@ -47,4 +47,10 @@ p{
     background-color: rgb(28, 98, 55);
 }
 
-
+.img-abt{
+    float: right;
+}
+.txt-abt{
+    padding-top: 70px;
+    float: left;
+}
