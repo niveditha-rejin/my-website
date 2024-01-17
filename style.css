@@ -268,3 +268,24 @@ p{
   @media (max-width: 768px) {
     .w3l-contacts-12 textarea {
       height: 150px; } }
+
+  /*contact section*/
+  .contact-section{
+    padding: 50px;
+    padding-left: 200px;
+  }
+  .colu{
+    padding-top: 30px;
+  }
+  .abt{
+    height: 3em;
+    width: 150em;
+    border-radius: 8px;
+    border: 1px solid #e78797;
+    background-color: #f7f3f4;
+
+  }
+  input[type=text]:focus {
+    background-color: rgb(224, 245, 241);
+  }
+  
