@@ -54,220 +54,76 @@ p{
     padding-top: 70px;
     float: left;
 }
-.w3l-services-block-3 .feature-grid {
+.services-block .feature-grid {
     margin-top: 30px; }
   
-  .w3l-services-block-3 .feature-img {
+  .services-block .feature-img {
     padding: 10px;
     margin: 0 auto; }
   
-  .w3l-services-block-3 .feature-body {
+  .services-block .feature-body {
     transition: 0.3s ease-in;
     border: 1px solid #f8f9fa;
     background-color: #f8f9fa;
     border-radius: 10px;
     padding: 2rem; }
   
-  .w3l-services-block-3 .feature-body:hover {
+  .services-block .feature-body:hover {
     background-size: cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: bottom right, left, right; }
   
-  .w3l-services-block-3 .service1:hover {
+  .services-block .service1:hover {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url(images/a.png); }
   
-  .w3l-services-block-3 .service2:hover {
+  .services-block .service2:hover {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url(images/b.webp); }
   
-  .w3l-services-block-3 .service3:hover {
+  .services-block .service3:hover {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url(images/c.jpg); }
   
-  .w3l-services-block-3 .service4:hover {
+  .services-block .service4:hover {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url(images/d.jpg); }
   
-  .w3l-services-block-3 .service5:hover {
+  .services-block .service5:hover {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url(images/e.webp); }
   
-  .w3l-services-block-3 :hover .service6:hover {
+  .services-block :hover .service6:hover {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.67)), url(images/f.jpg); }
   
-  .w3l-services-block-3 .feature-img span {
+  .services-block .feature-img span {
     font-size: 35px;
     transform: scale(1);
     transition: 0.3s ease;
     color: #e78797; }
   
-  .w3l-services-block-3 .feature-body:hover h3.feature-titel {
+  .services-block .feature-body:hover h3.feature-titel {
     color: rgb(222, 237, 235);
     transition: 0.3s ease; }
   
-  .w3l-services-block-3 .feature-body:hover p.feature-text {
+  .services-block .feature-body:hover p.feature-text {
     color: rgb(222, 237, 235);
     transition: 0.3s ease; }
   
-  .w3l-services-block-3 .feature-body:hover div.feature-img span {
+  .services-block .feature-body:hover div.feature-img span {
     transform: scale(1.1);
     transition: 0.3s ease;
     color: rgb(85, 192, 170); }
   
-  .w3l-services-block-3 h3.feature-titel {
+  .services-block h3.feature-titel {
     font-size: 22px;
     line-height: 32px;
     font-weight: 700;
     color: #101011;
     transition: 0.3s ease; }
   
-  .w3l-services-block-3 p.feature-text {
+  .services-block p.feature-text {
     color:#101011;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     transition: 0.3s ease; }
   
-  @media (max-width: 1280px) {
-    .w3l-services-block-3 .feature-info {
-      padding: 0 10px; } }
-  
-  @media (max-width: 1024px) {
-    .w3l-services-block-3 .feature-info {
-      padding: 0 0px; } }
-  
-  .w3l-open-block-services h4.mission {
-    color: #101011;
-    font-size: 22px;
-    line-height: 28px;
-    font-weight: 700;
-    margin-top: 25px; }
-  
-  .w3l-open-block-services h3.head-title {
-    color: #101011;
-    font-size: 40px;
-    line-height: 45px;
-    font-weight: 700;
-    margin-bottom: 55px;
-    text-align: center; }
-  
-  .w3l-open-block-services .open-description a {
-    font-size: 17px;
-    line-height: 26px;
-    font-weight: 700;
-    color: #e78797; }
-  
-  .w3l-open-block-services .open-description a:hover {
-    color: #fff; }
-  
-  .w3l-open-block-services .open-description p {
-    color: #101011;
-    font-size: 17px;
-    line-height: 26px;
-    margin-top: 10px;
-    margin-bottom: 20px; }
-  
-  .w3l-open-block-services .icon-holder span.fa {
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    transition: all 0.3s ease;
-    border-radius: 100%;
-    color: #fff;
-    font-size: 26px; }
-  
-  .w3l-open-block-services .card {
-    padding: 40px 25px;
-    position: relative;
-    background: rgba(41, 161, 156, 0.1);
-    border: none;
-    transition: .3s;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -ms-transition: .3s;
-    -o-transition: .3s;
-    border-radius: 8px; }
-  
-  .w3l-open-block-services .card:hover {
-    background: #1f242c;
-    transition: .3s;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -ms-transition: .3s;
-    -o-transition: .3s; }
-  
-  .w3l-open-block-services .card:hover h4.mission {
-    color: #fff; }
-  
-  .w3l-open-block-services .card:hover .open-description p {
-    color: #ccc; }
-  
-  .w3l-open-block-services .card .icon-holder {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -40px;
-    background: #101011;
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    transition: all 0.3s ease;
-    border-radius: 100%;
-    color: #fff;
-    font-size: 26px;
-    margin: 0 auto; }
-  
-  @media (max-width: 991px) {
-    .w3l-open-block-services h3.head-title {
-      font-size: 35px;
-      line-height: 40px; } }
-  
-  .w3l-contacts-12 {
-    position: relative; }
-  
-  .w3l-contacts-12 .main-images a {
-    display: inline-block; }
-  
-  .w3l-contacts-12 .contacts12-main {
-    margin: auto;
-    max-width: 700px;
-    text-align: center; }
-  
-  .w3l-contacts-12 .contact-head {
-    color: black;
-    line-height: 50px;
-    font-size: 45px; }
-  
-  .w3l-contacts-12 .contact {
-    text-align: center; }
-  
-  .w3l-contacts-12 input.contact-input,
-  .w3l-contacts-12 textarea {
-    outline: none;
-    padding: 17px 20px;
-    -webkit-appearance: none;
-    border-radius: 0;
-    color: #000;
-    width: 100%;
-    font-size: 17px;
-    line-height: 26px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    border: 1px solid #101011;
-    background: #fff; }
-  
-  .w3l-contacts-12 input.contact-input:focus,
-  .w3l-contacts-12 textarea:focus {
-    border: 1px solid  #e78797; }
-  
-  .w3l-contacts-12 textarea {
-    height: 180px;
-    resize: none; }
-  
-  .w3l-contacts-12 button.btn {
-    padding: 10px 50px; }
-  
-  @media (max-width: 768px) {
-    .w3l-contacts-12 textarea {
-      height: 150px; } }
 
   /*contact section*/
   .contact-section{
@@ -287,5 +143,10 @@ p{
   }
   input[type=text]:focus {
     background-color: rgb(224, 245, 241);
+  }
+  .adrss{
+    padding-left: 80px;
+        padding-top: 30px;
+        font-size: large;
   }
   
