@@ -152,6 +152,36 @@ p{
         padding-top: 30px;
         font-size: large;
   }
+
+  /*Expert in*/
+
+  .fixed-bg {
+    background-image: url("images/i.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .expert{
+    display: flex;
+    justify-content: center;
+  }
+  /*My Projects*/
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
   
   /*Footer*/
   .footer-content{
@@ -160,7 +190,8 @@ p{
     height: 150px;
   }
   .social-icons-main{
-    padding-left: 600px;
+    display: flex;
+    justify-content: center;
     padding-top: 10px;
 
   }
@@ -179,3 +210,5 @@ p{
   .name-footer:hover{
     color:#f0b9be;
   }
+
+  
