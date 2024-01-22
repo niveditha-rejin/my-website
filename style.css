@@ -39,6 +39,9 @@
   font-size: 20px;
   font-weight: 700;
   text-transform: none; }
+  .white{
+    color: white;
+  }
 
 .main-header .navbar-light .navbar-nav .show > .nav-link,
 .main-header .navbar-light .navbar-nav .active > .nav-link,
@@ -227,6 +230,9 @@ p{
   .expert{
     display: flex;
     justify-content: center;
+  }
+  .quote{
+    padding-left: 35em;
   }
   /*My Projects*/
   .card {
