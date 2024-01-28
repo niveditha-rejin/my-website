@@ -8,6 +8,9 @@
     <link rel="icon" type="image/x-icon" href="images/niv foto1.jpeg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.3/jquery.validate.min.js"></script>
 </head>
 <body>
   <header class="main-header header">
@@ -17,12 +20,12 @@
           <nav class="navbar navbar-expand-xl navbar-light py-sm-2 py-1 px-0">
             <p class="text"> My Website</p>
             
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <button class="navbar-toggler" style="background-color: #f0c9b8" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon fa fa-bar"></span>
+              <span class="navbar-toggler-icon fa fa-bar" style="background-color: #f0c9b8"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" style="background-color: #97dbcf;"  id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -58,19 +61,20 @@
     </div>
   </header>
   
-  <section class="contact-section">
+  <section class="contact-section" id="contact-section">
     <div class="container-fluid">
-      <div class="col-md-12"><div class="row"><h1>Want to Get in Touch?</h1></div></div>
+      <div class="col-md-12"><div class="row"><h1>Drop me a message....!</h1></div></div>
       <div class="row">
         <div class="col-md-6">
-          <form>
-            <div class="row colu"><input class="abt" type="text" id="name"placeholder="Name"></div>
-            <div class="row colu"><input class="abt" type="email" id="email" placeholder="E-mail"></div>
-            <div class="row colu"><input class="abt" type="text" id="subject"placeholder="Subject"></div>
-            <div class="row colu"><textarea class="abt" id="message" style="height: 150px;" placeholder="Your Message"></textarea></div>
-            <div class="row colu btn-sub"><button class="btn" style="float: right;">Submit</button></div>
-          </form>
-        </div>
+          <form id="signup-form" class="signup-form" name="signup-form">
+            <div class="row colu"><input class="abt" type="text" name="name" id="name" placeholder="Name"></div>
+            <div class="row colu"><input class="abt" type="email" name="email" id="email" placeholder="E-mail"></div>
+            <div class="row colu"><input class="abt" type="text" name="subject" id="subject" placeholder="Subject"></div>
+            <div class="row colu"><textarea class="abt" name="message" id="message" style="height: 150px;" placeholder="Your Message"></textarea></div>
+            <div class="row colu btn-sub"><button class="btn" id="myButton" name="myButton" style="float: right;">Submit</button></div>
+            <br>
+        </form>
+           </div>
         <div class="adrss">
         <div class="col-md-6">
           <div class="row"><strong>Address</strong></div>
@@ -89,7 +93,6 @@
         </div>
     </div>
   </section>
-
 
       <section>
         <div class="container-fluid">
@@ -119,7 +122,7 @@
           <div class="row">
             <div class="col-md-12">
               <div class="d-flex buttons-banner mt-sm-5 mt-4 my-5 expert">
-                <a href="#"><button class="btn p-2">Follow me on instagram</button></a>
+                <a href="https://www.linkedin.com/in/niveditha-rejin-20963577/"><button class="btn p-2">Contact me in Linkedin</button></a>
               </div>
             </div>
           </div>
@@ -148,9 +151,12 @@
       
       
           
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-      <script src="https://kit.fontawesome.com/778a3ced5e.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.3/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/778a3ced5e.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+      
       </body>
       </html>
