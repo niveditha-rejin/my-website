@@ -123,6 +123,16 @@ p{
     padding-left: 30px;
     float: left;
 }
+.txt-left{
+  padding-left: 130px;
+  
+}
+.bar{
+  padding-left: 6em;
+}
+.bar-right{
+  padding-right: 6em;
+}
 .services-block .feature-grid {
     margin-top: 30px; }
   
@@ -192,8 +202,9 @@ p{
     font-size: 16px;
     line-height: 26px;
     transition: 0.3s ease; }
-  
-
+  .service-left{
+    padding-left: 200px;
+  }
   /*contact section*/
   .contact-section{
     padding: 50px;
@@ -225,7 +236,7 @@ p{
   /*Expert in*/
 
   .fixed-bg {
-    background-image: url("images/i.jpg");
+    background-image: url("images/ab.jpg");
     min-height: 250px;
     background-attachment: fixed;
     background-position: center;
@@ -286,7 +297,7 @@ p{
 
   /*Contact Page*/
   .contact-fixed-bg {
-    background-image: url("images/a.png");
+    background-image: url("images/img12.jpg");
     min-height: 250px;
     background-attachment: fixed;
     background-position: center;
@@ -341,7 +352,23 @@ p{
   * {
     box-sizing: border-box;
   }
+  .timeline-fixed-bg{
+    background-image: url("images/img16.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
+  .about-fixed-bg {
+    background-image: url("images/img13.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   body {
     background-color: #474e5d;
     font-family: Helvetica, sans-serif;
