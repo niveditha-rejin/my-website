@@ -1,42 +1,23 @@
-$(document).ready(function () {
+$(document).ready(function(){
     $("#signup-form").validate({
-        rules: {
-            name: {
-                required: true,
-                minlength: 4,
-                maxlength: 10
+        rules:{
+            fname:{
+                required:true,
+                minlength:4
             },
-            email: {
-                required: true,
-                email: true,
+            emailAdd:{
+                required:true,
+                email:true
             },
-            subject: {
-                required: true,
-                minlength: 8
+            subj:{
+                required:true,
+                minlength:4
             },
-            message: {
-                required: true,
-                minlength: 8
-            }
-        },
-        messages: {
-            name: {
-                required: "Enter name",
-                minlength: "Enter at least 4 characters",
-                maxlength: "Name must not exceed 10 characters"
-            },
-            email: {
-                required: "Enter email id",
-                email: "Enter a valid email address"
-            },
-            subject: {
-                required: "Enter subject",
-                minlength: "Enter at least 8 characters"
-            },
-            message: {
-                required: "Enter message",
-                minlength: "Enter at least 8 characters"
+            msg:{
+                required:true,
+                minlength:10,
+                maxlength:50
             }
         }
-    });
-});
+    })
+})

@@ -61,19 +61,26 @@
     </div>
   </header>
   
-  <section class="contact-section" id="contact-section">
+ <section class="contact-section" id="contact-section">
     <div class="container-fluid">
-      <div class="col-md-12"><div class="row"><h1>Drop me a message....!</h1></div></div>
+      <div class="col-md-12">
+        <div class="row">
+          <h1>Drop me a message....!</h1>
+        </div>
+      </div>
       <div class="row">
         <div class="col-md-6">
-          <form id="signup-form" class="signup-form" name="signup-form">
-            <div class="row colu"><input class="abt" type="text" name="name" id="name" placeholder="Name"></div>
-            <div class="row colu"><input class="abt" type="email" name="email" id="email" placeholder="E-mail"></div>
-            <div class="row colu"><input class="abt" type="text" name="subject" id="subject" placeholder="Subject"></div>
-            <div class="row colu"><textarea class="abt" name="message" id="message" style="height: 150px;" placeholder="Your Message"></textarea></div>
-            <div class="row colu btn-sub"><button class="btn" id="myButton" name="myButton" style="float: right;">Submit</button></div>
+          <form id="signup-form" class="signup-form" name="signup-form" action="index.html">
+            <div class="row colu"><input class="abt" type="text" name="fname" id="name" placeholder="Name"></div>
+            <div class="row colu"><input class="abt" type="email" name="emailAdd" id="email" placeholder="E-mail"></div>
+            <div class="row colu"><input class="abt" type="text" name="subj" id="subject" placeholder="Subject">
+            </div>
+            <div class="row colu"><textarea class="abt" name="msg" id="message" style="height: 150px;"
+                placeholder="Your Message"></textarea></div>
+            <div class="row colu btn-sub"><button class="btn" id="myButton" name="myButton"
+                style="float: right;">Submit</button></div>
             <br>
-        </form>
+          </form>
            </div>
         <div class="adrss">
         <div class="col-md-6">
@@ -151,12 +158,13 @@
       
       
           
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.3/jquery.validate.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+        <script src="script.js"></script>
+      
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/778a3ced5e.js" crossorigin="anonymous"></script>
-        <script src="script.js"></script>
       
       </body>
       </html>
